@@ -1,0 +1,5 @@
+@GET
+@Produces(MediaType.TEXT_HTML)
+public String sayHTMLHello() {
+    return "<html><title>Hello</title><body><h1>Persistent appraised at CMMI Maturity Level 5!</h1><body></html>";
+}
